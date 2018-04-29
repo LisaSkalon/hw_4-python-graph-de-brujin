@@ -1,104 +1,104 @@
 digraph {
-	GCT [label=1]
-	GCT -> CTC [label="1.0 4"]
-	CTC [label=1]
-	CTC -> TCA [label="1.5 4"]
-	TCA [label=2]
-	TCA -> CAG [label="2.0 4"]
-	TCA -> CAA [label="2.5 4"]
-	CAG [label=2]
-	CAG -> AGT [label="3.0 4"]
-	AGT [label=4]
-	AGT -> GTT [label="4.5 4"]
-	AGT -> GTG [label="2.5 4"]
-	AGT -> GTA [label="2.5 4"]
-	AGT -> GTC [label="3.0 4"]
-	GTT [label=5]
-	GTT -> TTT [label="5.5 4"]
-	GTT -> TTC [label="3.0 4"]
-	TTT [label=6]
-	TTT -> TTA [label="4.5 4"]
-	TTT -> TTG [label="4.5 4"]
-	TTA [label=3]
-	TTA -> TAC [label="2.0 4"]
-	TTA -> TAA [label="3.0 4"]
-	TAC [label=1]
-	TAC -> ACT [label="2.5 4"]
-	ACT [label=4]
-	ACT -> CTA [label="3.0 4"]
-	ACT -> CTG [label="3.0 4"]
-	CTA [label=2]
-	CTA -> TAG [label="2.0 4"]
-	TAG [label=2]
-	TAG -> AGT [label="3.0 4"]
-	GTG [label=1]
-	GTG -> TGC [label="1.0 4"]
-	TGC [label=1]
-	TGC -> GCC [label="1.0 4"]
-	GCC [label=1]
-	GCC -> CCA [label="1.0 4"]
-	CCA [label=1]
-	CCA -> CAT [label="1.0 4"]
-	CAT [label=1]
-	CAT -> ATT [label="1.0 4"]
-	ATT [label=1]
-	ATT -> TTT [label="3.5 4"]
-	TTG [label=3]
-	TTG -> TGT [label="3.0 4"]
-	TTG -> TGA [label="2.5 4"]
-	TGT [label=3]
-	TGT -> GTT [label="4.0 4"]
-	AAC [label=5]
-	AAC -> ACA [label="4.0 4"]
-	AAC -> ACT [label="4.5 4"]
-	ACA [label=3]
-	ACA -> CAA [label="3.0 4"]
-	ACA -> CAG [label="2.5 4"]
-	CAA [label=3]
-	CAA -> AAA [label="4.5 4"]
-	AAA [label=6]
-	AAA -> AAT [label="3.5 4"]
-	AAA -> AAC [label="5.5 4"]
-	AAA -> AAG [label="4.0 4"]
-	AAT [label=1]
-	AAT -> ATG [label="1.0 4"]
-	ATG [label=1]
-	ATG -> TGG [label="1.0 4"]
-	TGG [label=1]
-	TGG -> GGC [label="1.0 4"]
-	GGC [label=1]
-	GGC -> GCA [label="1.0 4"]
-	GCA [label=1]
-	GCA -> CAC [label="1.0 4"]
-	CAC [label=1]
-	CAC -> ACT [label="2.5 4"]
-	GTA [label=1]
-	GTA -> TAA [label="2.0 4"]
-	TAA [label=3]
-	TAA -> AAA [label="4.5 4"]
-	CTG [label=2]
-	CTG -> TGA [label="2.0 4"]
-	CTG -> TGT [label="2.5 4"]
-	TGA [label=2]
-	TGA -> GAG [label="1.5 4"]
-	TGA -> GAA [label="1.5 4"]
-	GAG [label=1]
-	GAG -> AGC [label="1.0 4"]
-	AGC [label=1]
-	TTC [label=1]
-	TTC -> TCA [label="1.5 4"]
-	AAG [label=2]
-	AAG -> AGA [label="2.0 4"]
-	AGA [label=2]
-	AGA -> GAC [label="2.0 4"]
-	GAC [label=2]
-	GAC -> ACT [label="3.0 4"]
-	GTC [label=2]
-	GTC -> TCT [label="2.0 4"]
-	TCT [label=2]
-	TCT -> CTT [label="2.0 4"]
-	CTT [label=2]
-	CTT -> TTT [label="4.0 4"]
-	GAA [label=1]
-	GAA -> AAC [label="3.0 4"]
+	GCT
+	GCT -> CTC [label=GCTC]
+	CTC
+	CTC -> TCA [label=CTCA]
+	TCA
+	TCA -> CAG [label=TCAG]
+	TCA -> CAA [label=TCAA]
+	CAG
+	CAG -> AGT [label=CAGT]
+	AGT
+	AGT -> GTT [label=AGTT]
+	AGT -> GTG [label=AGTG]
+	AGT -> GTA [label=AGTA]
+	AGT -> GTC [label=AGTC]
+	GTT
+	GTT -> TTT [label=GTTT]
+	GTT -> TTC [label=GTTC]
+	TTT
+	TTT -> TTA [label=TTTA]
+	TTT -> TTG [label=TTTG]
+	TTA
+	TTA -> TAC [label=TTAC]
+	TTA -> TAA [label=TTAA]
+	TAC
+	TAC -> ACT [label=TACT]
+	ACT
+	ACT -> CTA [label=ACTA]
+	ACT -> CTG [label=ACTG]
+	CTA
+	CTA -> TAG [label=CTAG]
+	TAG
+	TAG -> AGT [label=TAGT]
+	GTG
+	GTG -> TGC [label=GTGC]
+	TGC
+	TGC -> GCC [label=TGCC]
+	GCC
+	GCC -> CCA [label=GCCA]
+	CCA
+	CCA -> CAT [label=CCAT]
+	CAT
+	CAT -> ATT [label=CATT]
+	ATT
+	ATT -> TTT [label=ATTT]
+	TTG
+	TTG -> TGT [label=TTGT]
+	TTG -> TGA [label=TTGA]
+	TGT
+	TGT -> GTT [label=TGTT]
+	AAC
+	AAC -> ACA [label=AACA]
+	AAC -> ACT [label=AACT]
+	ACA
+	ACA -> CAA [label=ACAA]
+	ACA -> CAG [label=ACAG]
+	CAA
+	CAA -> AAA [label=CAAA]
+	AAA
+	AAA -> AAT [label=AAAT]
+	AAA -> AAC [label=AAAC]
+	AAA -> AAG [label=AAAG]
+	AAT
+	AAT -> ATG [label=AATG]
+	ATG
+	ATG -> TGG [label=ATGG]
+	TGG
+	TGG -> GGC [label=TGGC]
+	GGC
+	GGC -> GCA [label=GGCA]
+	GCA
+	GCA -> CAC [label=GCAC]
+	CAC
+	CAC -> ACT [label=CACT]
+	GTA
+	GTA -> TAA [label=GTAA]
+	TAA
+	TAA -> AAA [label=TAAA]
+	CTG
+	CTG -> TGA [label=CTGA]
+	CTG -> TGT [label=CTGT]
+	TGA
+	TGA -> GAG [label=TGAG]
+	TGA -> GAA [label=TGAA]
+	GAG
+	GAG -> AGC [label=GAGC]
+	AGC
+	TTC
+	TTC -> TCA [label=TTCA]
+	AAG
+	AAG -> AGA [label=AAGA]
+	AGA
+	AGA -> GAC [label=AGAC]
+	GAC
+	GAC -> ACT [label=GACT]
+	GTC
+	GTC -> TCT [label=GTCT]
+	TCT
+	TCT -> CTT [label=TCTT]
+	CTT
+	CTT -> TTT [label=CTTT]
+	GAA
+	GAA -> AAC [label=GAAC]
 }
