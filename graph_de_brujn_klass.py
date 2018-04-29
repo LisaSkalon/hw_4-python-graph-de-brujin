@@ -15,12 +15,14 @@ def parse_inputs():
      parser = argparse.ArgumentParser(description='Graph de Brujin')
      parser.add_argument('-i', '--infile' , help='Input file' , metavar='Str',
                     type=str, required=True)
+     parser.add_argument('-o', '--outfile' , help='Input file' , metavar='Str',
+                    type=str, required=True)
      parser.add_argument('-k', '--kmersize', help = 'Kmer size', metavar = 'Int', type = int, default = 3)
      parser.add_argument('-f', '--full', help='Output = full graph', action='store_true')
      parser.add_argument('-s', '--short', help='Output = short graph', action='store_true')
      
      args = parser.parse_args()
-     return args.infile, args.kmersize, args.full, args.short
+     return args.infile, args.outfile, args.kmersize, args.full, args.short
     
 
 class Vertex:
@@ -108,11 +110,11 @@ class Graph:
                     dot.edge(v,n, label = (str(self.vertices[v].out_edges[n][0].coverage) +' '+ str(self.k+1)))
             
 #       сохранение и выводод на экран     
-        dot.render('test-output/graph.gv', view=True)
+        dot.render(out_file, view=True)
 
 
 if __name__ == '__main__':
-    in_file, size, full_flag, short_flag = parse_inputs()
+    in_file, out_file, size, full_flag, short_flag = parse_inputs()
     
     dataset = in_file
 
