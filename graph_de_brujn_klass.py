@@ -3,7 +3,6 @@
 """
 Created on Sat Mar 31 12:11:18 2018
 
-@author: gospozha
 """
 
 from Bio import SeqIO
